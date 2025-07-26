@@ -2,7 +2,7 @@ build:
   version: "1.0"
 
 cards:
-  message: "Welcome to Bank Cards related to Prod APIs"
+  message: "Welcome to Bank Cards related to prod APIs"
   contactDetails:
     name: "Evgen Sidorov - Product Owner"
     email: "evgen@gmail.com"
