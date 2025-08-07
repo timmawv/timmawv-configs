@@ -1,0 +1,8 @@
+eureka:
+  instance:
+    hostname: localhost
+  client:
+    fetchRegistry: false # этот сервис не будет вызывать другие микросы ставим false
+    registerWithEureka: false #
+    serviceUrl:
+      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
