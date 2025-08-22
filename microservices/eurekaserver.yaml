@@ -1,9 +1,6 @@
 eureka:
   instance:
     hostname: localhost
-server:
-  port: 8080
-
   client:
     fetchRegistry: false # этот сервис не будет вызывать другие микросы ставим false
     registerWithEureka: false #
